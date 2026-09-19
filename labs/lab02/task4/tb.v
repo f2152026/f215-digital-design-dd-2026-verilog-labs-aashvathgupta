@@ -24,6 +24,7 @@ module tb;
     end
   end
 
+
   // Each gate has a #5 delay somewhere in its own implementation. Toggle
   // the inputs every 2 time units -- faster than that 5-unit delay -- so
   // that any implementation using stale values will show it.
