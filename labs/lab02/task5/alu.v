@@ -19,6 +19,7 @@ module alu (
   output reg [3:0] result
 );
 
+
   reg [3:0] b_inv;
   reg [3:0] b_twos;
 
